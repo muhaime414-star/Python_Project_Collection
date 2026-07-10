@@ -20,7 +20,8 @@ def generate_mock_logs(filename, total_lines):
             # random.choice picks one IP from our pool at random
             random_ip = random.choice(ip_pool)
             file.write(f"{random_ip}\n")
-
+   
+   
     print(f"Success! Mock logs saved to {filename}")
 
 # Generate a file with 1,000 lines
