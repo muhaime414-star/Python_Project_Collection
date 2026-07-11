@@ -25,4 +25,6 @@ def generate_mock_logs(filename, total_lines):
     print(f"Success! Mock logs saved to {filename}")
 
 # Generate a file with 1,000 lines
-generate_mock_logs('massive_server_logs.txt', 1000)
+generate_mock_logs('massive_server_logs.txt', 1001)
+
+
