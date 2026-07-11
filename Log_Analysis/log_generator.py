@@ -13,7 +13,6 @@ def generate_mock_logs(filename, total_lines):
 
     with open(filename, 'w') as file:
         for _ in range(total_lines):
-            # random.choice picks one IP from our pool at random
             random_ip = random.choice(ip_pool)
             file.write(f"{random_ip}\n")
    
